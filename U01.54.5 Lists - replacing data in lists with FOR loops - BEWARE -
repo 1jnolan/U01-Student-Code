@@ -1,0 +1,23 @@
+#File name: U01.54.5 Lists - replacing data in lists with FOR loops - BEWARE - CLEANING DATA.py
+#*******************************************************
+#Enter your Name:
+#*******************************************************
+
+list6=[1,-19,27,8,-5,9] #the list of numbers
+print(list6)
+for item in list6:
+    if item<0:
+        item=0
+print(list6)
+
+#1. Run this code. Note the outcome.
+#2. Comment out the code on lines 6-11. Then remove the comments on the code below:
+"""
+list7=[1,-19,27,8,-5,9] #the list of numbers
+print(list7) #print the list
+for counter in range(len(list7)): #for each item in the range the length of the list. 
+    if list7[counter]<0: #if the item at the location [counter] in the list is less than 0
+        list7[counter]=0 #then swap it for a zero
+        #repeat this until the counter has reached the range number length of the list
+print(list7)
+"""
