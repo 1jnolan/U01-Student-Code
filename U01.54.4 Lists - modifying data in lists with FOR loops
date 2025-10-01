@@ -1,0 +1,16 @@
+#File name: U01.54.4 Lists - modifying data in lists with FOR loops - CLEANING DATA.py
+#*******************************************************
+#Enter your Name:
+#*******************************************************
+
+list5=[1,-19,27,8,-5,9] #the list of numbers
+print(list5)
+for item in list5:
+    print(item)
+
+
+#*******************************************************
+
+'Note the difference in the outcome vs. the while loop. We get a new line for each item in the list.
+    
+#*******************************************************
