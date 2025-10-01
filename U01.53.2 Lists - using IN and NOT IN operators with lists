@@ -1,0 +1,31 @@
+#File name: U01.53.2 Lists - using IN and NOT IN operators with lists.py
+#*******************************************************
+#Enter your Name:
+#*******************************************************
+#PRIMM Activity - Predict, Run, Investigate, Modify, Make
+#*******************************************************
+#1. Predict - place a comment beside each line of code below stating what you predict it will do.
+
+list1=['t','e','a','c','u','p']
+if 'a' in list1:
+    print("it is in the list")
+else:
+    print("it isn't in the list")
+
+#2. Run the code.
+#3. Investigate each line of code. Correct your comments.
+#4. Delete the triple quotes below. Change the contents of list1 to colours e.g. 'red'. Adjust the code on line 20 to search for a colour.
+"""
+list1=['t','e','a','c','u','p']
+if 'a' in list1:
+    print("it is in the list")
+else:
+    print("it isn't in the list")
+
+
+"""
+
+#5. Make a new program with a list of car types
+#ask the user to input a car type.
+#Check if the users entry is in a list of car types.
+#Print the outcome of the check.
