@@ -1,0 +1,9 @@
+"""
+File name: U01.50 Loops T2p37.py
+***************
+Task 2 Page 37
+***************
+Write a program that inputs a value from a user.
+The program counts from 1 to that value and prints out every odd number.
+Your solution must use a FOR loop.
+"""
