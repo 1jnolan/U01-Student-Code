@@ -1,0 +1,12 @@
+#File name: U01.53.5 Lists - removing items from a list.py
+#*******************************************************
+#Enter your Name:
+#*******************************************************
+
+list2=[1,19,27,8,5,9]
+print(list2)
+list2.remove(list2[3])#note the need to place the name of the list within the brackets.
+print("After removing item 3 from the list, the outcome looks like this:")
+print(list2)
+
+#Change the code to remove the last item from the list (regardless of how long the list is)
