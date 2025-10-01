@@ -1,4 +1,8 @@
 #File name: U01.51 Writing text files.py
+#*******************************************************
+#Enter your Name:
+#*******************************************************
+
 # Ask the user to enter a string
 user_input = input("Enter a string: ")
 
@@ -15,8 +19,11 @@ file.close()
 # Perform word count using a for loop
 words = content.split()
 word_count = 0
-""".split is an alternative way to split up the content  based on spaces.
-We can put in custom delimeters such as , . ! and split the data even further"""
+
+"""
+.split is an alternative way to split up the content  based on spaces.
+We can put in custom delimeters such as , . ! and split the data even further
+"""
 #NOTE: print the variable words. What do you notice?
 
 for word in words:
