@@ -1,0 +1,33 @@
+#Boolean Logic Examples
+#*********************************
+
+#Step 1 Set up the data.
+
+#Variable waterfordCafes stores no. of Cafes in Waterford
+waterfordCafes=42
+
+#Variable clonmelCafes stores no. of Cafes in Clonmel
+clonmelCafes=33 
+
+"""The code below with print true or false
+to the following statements"""
+
+#Waterford has more cafes than Clonmel
+print(waterfordCafes>clonmelCafes)
+
+#The no. of cafes in Waterford IS EQUAL to the no. in Clonmel
+print(waterfordCafes==clonmelCafes)
+
+#The no. of cafes in Waterford is NOT EQUAL to the no. in Clonmel
+print(waterfordCafes!=clonmelCafes)
+
+#The no. of cafes in Waterford is LESS than no. of cafes in Clonmel
+print(waterfordCafes<clonmelCafes)
+
+#The no. of cafes in Waterford is LESS than OR EQUAL to the no. of cafes in Clonmel
+print(waterfordCafes<=clonmelCafes)
+
+#The no. of cafes in Waterford is GREATER than OR EQUAL to the no. of cafes in Clonmel
+print(waterfordCafes>=clonmelCafes)
+
+"""Modify this program to see the outcomes"""
