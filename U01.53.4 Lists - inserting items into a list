@@ -1,0 +1,12 @@
+#File name: U01.53.4 Lists - inserting items into a list.py
+#*******************************************************
+#Enter your Name:
+#*******************************************************
+
+list2=[1,19,27,8,5,9]
+print(list2)
+list.insert(2,13)
+print("After inserting 13 to the list, the outcome looks like this:)
+print(list2)
+
+#What does the first arguement in the .insert command do?
