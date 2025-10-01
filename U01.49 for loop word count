@@ -1,4 +1,8 @@
-#Word counts using for loops
+#File Name: U01.49 Word counts using for loops.py
+#*******************************************************
+#Enter your Name:
+#*******************************************************
+
 sentence=input("Enter a sentence: ")
 spaceCount=0
 for character in sentence:#for each item in the variable called sentence
