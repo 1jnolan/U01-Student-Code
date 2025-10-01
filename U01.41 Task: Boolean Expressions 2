@@ -1,0 +1,23 @@
+#Boolean Logic Example 2
+#*********************************
+
+#Set up the data.
+cows=3
+dogs=5
+
+#Output the what is happening:
+print("Checking that both values are TRUE using the AND operator:")
+
+#Output the result of the boolean test:
+print((cows==4)and(dogs==5))
+
+#Adjusting the code:
+#1 - copy line 12 into the space below and change the and to OR.
+
+#Type your expected outcome here:
+#Type the actual outcome here:
+
+#2 - copy line 12 into the space below and change (cows==4) to (cows!=4)
+
+#Expected outcome:
+#Actual outcome:  
