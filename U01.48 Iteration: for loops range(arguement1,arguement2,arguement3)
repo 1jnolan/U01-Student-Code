@@ -1,0 +1,25 @@
+#File name: U01.48 Iteration: for loops range(arguement1,arguement2,arguement3).py
+#*******************************************************
+
+#PRIMM activity.
+
+#PRIMM: Predict, Read, Investigate, Modify, Make
+
+#*******************************************************
+#Enter your Name:
+#*******************************************************
+
+
+for item in range(2,20,5):
+    print(item)
+
+#P - Predict what will happen when this code is run:
+#
+#R - What was the actual outcome?
+#
+#I - Why did this happen?
+#
+#M - Copy the code above and modify it to do something below.
+
+
+#M - Make a new piece of code below which will count from 100 to 0 in increments of 25.
