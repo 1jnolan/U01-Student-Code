@@ -1,0 +1,20 @@
+#U01.48 Loops and range PRIMM activity.
+
+#PRIMM: Predict, Read, Investigate, Modify, Make
+
+for hNum in range(50,70):
+    print(hNum, "St. Patrick's Parade")
+
+#P. What do you think the outcome will be?
+
+
+#R. What was the outcome?
+    
+
+#I.Why did this happen?
+
+
+#M. Modify the range() function to read range(50). Note what happens.
+
+
+#M. Make a new for loop with a range(50,71,2) - explain what happens.
