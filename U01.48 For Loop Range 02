@@ -1,0 +1,12 @@
+#For Loops and Range Example 2:
+for y in range(1,7):
+    print(y)
+#What has changed from example 1 to example 2?
+    
+
+#What does the first number in the brackets do?
+    
+    
+#What does the second number in the brackets do?
+    
+
