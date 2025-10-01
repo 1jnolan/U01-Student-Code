@@ -1,0 +1,12 @@
+#File name: U01.53.3 Lists - appending items to a list.py
+#*******************************************************
+#Enter your Name:
+#*******************************************************
+
+list2=[1,19,27,8,5,9]
+print(list2)
+list.append(11)
+print("After appending 11 to the list, the outcome looks like this:)
+print(list2)
+
+#What does the command .append do?
