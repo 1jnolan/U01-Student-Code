@@ -1,5 +1,7 @@
-#WHILE LOOPS:
-
+#File Name: U01.45.01 Iteration: WHILE LOOPS.py
+#*******************************************************
+#Enter your Name:
+#*******************************************************
 counter=0 #loop control variable
 while counter <7: #boolean condition
     print(counter) #print what the counter is
