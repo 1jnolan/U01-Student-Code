@@ -1,0 +1,22 @@
+#File name: U01.54.3 Lists - modifying data in lists that doesnt meet a requirement - CLEANING DATA.py
+#*******************************************************
+#Enter your Name:
+#*******************************************************
+
+list4=[1,-19,27,8,-5,9] #the list of numbers
+print(list4)
+counter=0 #used to control the while loop
+
+while counter<len(list4):
+    if list4[counter]<0: #if the data in the list at the index no. counter is < 0:
+        list4[counter]=0 #replace the item at location [counter] with the number 0
+    counter+=1
+print(list4)
+
+
+#*******************************************************
+#Instructions:
+#1. comment out the code above.
+#2. nake a copy of it in the space below. Change the code to replace the negative numbers with the word "null" 
+#3. check if this can work, can a list store both strings and nums at the same time?
+#4. What use could there be for this code?
