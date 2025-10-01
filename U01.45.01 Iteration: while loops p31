@@ -1,0 +1,8 @@
+#WHILE LOOPS:
+
+counter=0 #loop control variable
+while counter <7: #boolean condition
+    print(counter) #print what the counter is
+    counter+=1 #increment the counter
+    
+print("Im glad that loop is finished!") #exit the loop
