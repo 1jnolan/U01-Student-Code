@@ -1,0 +1,15 @@
+#WHILE LOOPS - sentinal value
+#ask user for a number
+num=int(input("Enter a number, 0 to finish: "))
+
+#put 1st number into a total to start
+total=num
+
+#create a loop to allow the user to enter a number and add it to the total
+#if the number entered is 0 stop asking.
+while num!=0: #while the num entered not 0:
+    num=int(input("Enter another number, 0 to finish "))
+    total+=num
+print("The total is ", total)
+
+#edit the above code to print the running total after every user entry
