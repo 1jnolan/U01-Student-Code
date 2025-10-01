@@ -1,0 +1,9 @@
+"""
+File name: U01.50 Loops T1p37.py
+***************
+Task 1 Page 37
+***************
+Write a program that prints the numbers 1 to 10 using a FOR loop.
+Then write an equivalent program that prints the numbers 1 to 10 using the WHILE loop.
+
+"""
