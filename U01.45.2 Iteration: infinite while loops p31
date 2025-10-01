@@ -1,0 +1,6 @@
+#WHILE LOOPS
+#infinte looping
+
+while True:
+print("Let's just loop for ever.")
+#good for games. 
