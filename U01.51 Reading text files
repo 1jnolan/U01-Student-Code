@@ -1,0 +1,23 @@
+#File name: U01.51 Reading text files.py
+
+#1: FILE = OPEN THE FILE ("FILE NAME AND DIRECTORY LOCATION", "READ THE FILE", "USE ENCODING UTF8 TO HELP READING IT")
+#To make this easier, save the .txt file in the same folder as you save your python files.
+file=open("got1.txt", "r", encoding='utf-8')
+
+"""
+this book was encoded with utf-8 which is unusual. 
+As a reuslt the encoding="utf-8" part of the code was added after "r"
+you don't always need to do this
+"""
+
+#2: STORE ALL OF WHAT IS IN THE FILE IN A VARIABLE 
+dataIn=file.read()
+
+#3. CLOSE THE FILE.
+file.close()
+
+#4. Print the file. This should be commented out after you investigate the code. 
+print(dataIn)
+
+#Add to this code - use a FOR loop to find out how many words are in the book
+#***HINT*** Files from U01.49 will help.
