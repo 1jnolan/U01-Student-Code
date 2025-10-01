@@ -1,0 +1,9 @@
+#Word counts using for loops
+sentence=input("Enter a sentence: ")
+spaceCount=0
+for character in sentence:#for each item in the variable called sentence
+    if character == " ": #if the item is a space
+        spaceCount+=1 #increase the spacecounter by 1
+wordCount=spaceCount+1 #add to the word counter.
+print("Spaces: ", spaceCount)
+print("Words: ", wordCount) 
