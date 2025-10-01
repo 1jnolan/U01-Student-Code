@@ -1,0 +1,17 @@
+#File name: U01.54.1 Lists - find items in a list.py
+#*******************************************************
+#Enter your Name:
+#*******************************************************
+
+list3=[1,19,27,8,5,9]
+print(list3.index(27))
+#Predict the outcome:
+#Run the code, what was the outcome:
+#Investigate - why did this happen?
+#Modify the list by inserting the number 27 again somewhere else in the list use .insert() to do this.
+
+
+#Make a new piece of code to print out the result.
+
+
+#Did the code print the location of both number 27s? Why/Why not?
