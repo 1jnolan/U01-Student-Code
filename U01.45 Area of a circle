@@ -1,0 +1,22 @@
+#Area of a circle programme
+print("1. Calculate area of a circle")
+print("2. Calculate the volume of a sphere")
+print("3. Exit")
+option=int(input("Enter option (1-3_: "))
+while(option!=3):
+    if option ==1:
+        r=float(input("Enter radius: "))
+        area=3.14*(r**2)
+        print("Areas is: ", area)
+        option=0
+    elif option ==2:
+        r=float(input("Enter radius: "))
+        vol=(4/3)*(3.14*(r**3))
+        print("Volume is:  ", vol)
+        option=0
+    else:
+        print("Invalid choice")
+    print("1. Calculate area of a circle")
+    print("2. Calculate the volume of a sphere")
+    print("3. Exit")
+print("Time for a rest")
