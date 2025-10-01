@@ -1,0 +1,27 @@
+#File name: U01.54.2 Lists - find items that occur multiple times in a list.py
+#*******************************************************
+#Enter your Name:
+#*******************************************************
+
+list3=[1,19,27,8,5,27,9] #the list of numbers
+numSought=27 #the number that we are checking the list for
+
+freqNum=0 #a variable to count how frequently the number being sought turns up in the code.
+counter=0 #used to control the while loop
+
+while counter<len(list3):
+    if list3[counter]==numSought: #if the data in the list at the index no. counter matches numSought
+        freqNum+=1 #increase the number of times that the item is found in the list
+        print("Found at index: ", counter)
+    counter+=1
+
+
+#*******************************************************
+#Instructions:
+#1. comment out the code above.
+#2. In the space below create a new list with the strings: a,b,c,d,e,d,f,g,d,h,i,d
+    
+#3. In the space below create a variable to search for the letter d.
+
+
+#4. Use a while loop to search for the letter d. 
