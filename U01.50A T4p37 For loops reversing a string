@@ -1,0 +1,10 @@
+#File name: U01.50A T4p37 For loops reversing a string.py
+#*******************************************************
+#Enter your Name:
+#*******************************************************
+#Instructions:
+#Create a program that takes in a sentence and then reverses the sentence using a for loop
+#******************************************************
+
+# Ask the user to enter a sentence
+sentence = input("Enter a sentence: ")
