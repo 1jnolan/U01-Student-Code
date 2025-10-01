@@ -1,0 +1,8 @@
+#File name: U01.50 T5p37 For loops searching strings.py
+#*******************************************************
+#Enter your Name:
+#*******************************************************
+#Instructions:
+#1. Write a program that takes in a sentence.
+#2. Then ask the user to enter a single character (a string of length 1).
+#3. Next, using a for loop, count the occurrences of that character in the sentence.
