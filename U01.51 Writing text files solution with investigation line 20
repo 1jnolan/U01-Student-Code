@@ -1,0 +1,28 @@
+#File name: U01.51 Writing text files.py
+# Ask the user to enter a string
+user_input = input("Enter a string: ")
+
+# Write the input to a new .txt file
+file = open("user_input.txt", "w")
+file.write(user_input) #.write is the command used to write the content.
+file.close()
+
+# Reopen the file and read its contents
+file = open("user_input.txt", "r")
+content = file.read() #.read is the command used to read the content.
+file.close()
+
+# Perform word count using a for loop
+words = content.split()
+word_count = 0
+""".split is an alternative way to split up the content  based on spaces.
+We can put in custom delimeters such as , . ! and split the data even further"""
+#NOTE: print the variable words. What do you notice?
+
+for word in words:
+    word_count += 1
+
+print("Word count:", word_count)
+
+
+
