@@ -1,4 +1,7 @@
 #File name: U01.51 Reading text files.py
+#*******************************************************
+#Enter your Name:
+#*******************************************************
 
 #1: FILE = OPEN THE FILE ("FILE NAME AND DIRECTORY LOCATION", "READ THE FILE", "USE ENCODING UTF8 TO HELP READING IT")
 #To make this easier, save the .txt file in the same folder as you save your python files.
