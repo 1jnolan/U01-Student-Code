@@ -1,0 +1,10 @@
+#Example 1:
+for y in range(7):
+    print(y)
+#What happens?
+#
+#What does the y stand for? can it be changed?
+#
+
+
+#********************************************
