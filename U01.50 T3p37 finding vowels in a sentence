@@ -1,0 +1,12 @@
+#File name: U01.50 T3p37 finding vowels in a sentence.py
+#*******************************************************
+#Instructions:
+#Create a program that counts and prints the number of vowels in a sentence.
+#*******************************************************
+#Enter your Name:
+#*******************************************************
+#Ask the user to enter a sentence
+sentence = input("Enter a sentence: ")
+
+# Convert the sentence to lowercase
+sentence = sentence.lower()
