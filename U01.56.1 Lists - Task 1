@@ -1,0 +1,11 @@
+#U01.56.1 Lists - Task 1.py
+#*******************************************************
+#Enter your Name:
+#*******************************************************
+"""
+a. Write a Python program to take in 5 numbers and store them in a list.
+
+b. Seperately, go through the list and add 1 to each item.
+
+c. Print out the list to test that each item has been incremented by 1. 
+"""
